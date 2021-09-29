@@ -1,9 +1,31 @@
 # Installation Guide:
 
 ### Virtual Environment on Windows:
-py -3 -m venv .venv
-.venv\scripts\activate
 
+#### Run the script below within the directory to create the virtual environment:
+> py -3 -m venv env
+
+#### Start the virtual environment run the script below:
+> source env/bin/activate
+#### Then, to stop it:
+> deactivate
+
+### For Git users, in order to track project dependencies:
+<ol>
+<li>While in the virtual environment, start by installing a python library: </li>
+> pip install library
+<li>Then stop the virtual environment: </li>
+> deactivate
+<li>Initialize the repository: </li>
+> git init
+<li>To include the "env" folder in the .gitignore file so the virtual environment is ignored by source control: </li>
+> echo ‘env' > .gitignore
+<li>To place the dependencies in a text file to be committed (Freezing reads all the installed dependencies and then produces a text file with the name of the dependency and the installed version number.): </li>
+> pip freeze > requirements.txt
+<li>To check the file into source control : </li>
+> git add requirements.txt
+<li>Finally, commit the files and push to a repo. </li>
+</ol>
 
 **Note:** MMF requires Python 3.9+
 
