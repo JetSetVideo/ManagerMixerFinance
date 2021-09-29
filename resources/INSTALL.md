@@ -1,5 +1,10 @@
 # Installation Guide:
 
+### Virtual Environment on Windows:
+py -3 -m venv .venv
+.venv\scripts\activate
+
+
 **Note:** MMF requires Python 3.9+
 
 ManagerMixerFinance can be installed from PyPi. (It's recommended that you install in a virtual environment of your choice).
