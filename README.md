@@ -1,7 +1,11 @@
 # Manager Mixer Finance:
-![Tux, the Linux mascot](\resources\ManagerMinerFinance_Logo1.ai)
-<img src="https://raw.githubusercontent.com/MaxWayne/ManagerMixerFinance/master/resources/ManagerMixerFinanceLogo.png" />
+![MMF Logo](\resources\ManagerMinerFinance_Logo1.ai)
+<img src="https://github.com/MaxWayne/ManagerMixerFinance/blob/master/resources/ManagerMinerFinance.ai" />
 
+## The Goal:
+To create a Docker image of a fully integrated server with a user interface UI to manage the scrapping and storage of up-to-date financial informations available on the internet.
+
+### Definition:
 A python web application to manage the extraction and storage of all Financial data available on the web.
 The software is written mainly in Python and uses popular librairies to create a web interface that master a scrapper engine which store the informations.
 It scraps from a broad list of sources (data providers, stock exchanges, etc.) in the web, gathers them to be stored in a PostgreSQL database.
@@ -18,45 +22,46 @@ Manage the sources
 
 # Table of Contents:
 
+## Tools:
+<ul>
+<li>Operating System: Ubuntu</li>
+<li>Docker: </li>
+<li>Language: Python3.9</li>
+<li>UserInterface: Django3.2</li>
+<li>Webscraper Library: Scrapy</li>
+<li>database: PostgreSQL</li>
+</ul>
+
 ## Data Structure:
 Json file
 
 ## Application Structure:
-<ul>
-<li>Docker: </li>
-<li>Language: Python3.9</li>
-<li>UserInterface: Django</li>
-<li>Webscraper: Scrapy</li>
-<li>database: PostgreSQL</li>
-</ul>
+### Frontend:
+JavaScrip (TypeScrip)
+Django 3.2
 
+### API:
+
+### Backend:
+Python 3.9
+PostgreSQL
+Redis
+container (kubernetes)
+Tor
 
 ## Installation: 
-**Note:** MMF requires Python 3.9+
 
-ManagerMixerFinance can be installed from PyPi. (It's recommended that you install in a virtual environment of your choice).
-
-    pip install ManagerMixerFinance
-
-ManagerMixerFinance has optional dependencies, depending on the backends used. You can install them individually, or all at once. To install ManagerMixerFinance along with all its optional dependencies in one bundle:
-
-    pip install ManagerMixerFinance[all]
-
-If you wish to clone the repository and install from source, run this command from the root of the cloned repository
-
-    python setup.py install
-
-Alternatively, you can install in 'edit' mode (also called development mode):
-
-    python setup.py develop
-
-See more options, explanations and Pipenv usage in [INSTALL.md](https://github.com/MaxWayne/ScraperWeb/blob/master/INSTALL.md).
+See more options, explanations and Pipenv usage in [INSTALL.md](https://github.com/MaxWayne/ManagerMixerFinance/blob/master/resources/INSTALL.md).
 
 ----
 
 ## To Do List:
 - Establish a full list of financial assets available 
-
+<ol>
+<li> Check if the source is available and up-to-date</li>
+<li> Scrap the raw data</li>
+<li> Clean the data and integrate them in the database</li>
+</ol>
 ### Future works:
 <ul>
 <li>a web interface</li>
@@ -79,3 +84,11 @@ To be implemented.
 ## Contributing:
  Do not hesitate, leave a like, a feedback, a star, a follow, some money or even a contribution!
  This work needs contributors, every help will be welcomed. :)
+
+# Contact Us:
+For any questions left unaswered, please feel free to contact us:
+<ol>
+<li> at http://www.hadrian-advisors.com/ </li>
+<li> directly through GitHub @MaxWayne</li>
+<li> or by sending us an email at: maximilien.pelletier@gmail.com</li>
+</ol>
