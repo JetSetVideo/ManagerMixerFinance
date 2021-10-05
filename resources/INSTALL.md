@@ -7,10 +7,20 @@
 
 #### Start the virtual environment run the script below:
 > source env/bin/activate
+On cmd Windows within the main file:
+>.\env\Scripts\activate 
 #### Then, to stop it:
 > deactivate
 
-### For Git users, in order to track project dependencies:
+### Git Hub, to track dependencies:
+
+#### Install all python libraries from requirements.txt:
+py -m pip install -r requirements.txt
+
+#### To export a list of all installed packages:
+py -m pip freeze
+
+### The routine for a python project on GitHub:
 <ol>
 <li>While in the virtual environment, start by installing a python library: </li>
 > pip install library
