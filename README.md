@@ -80,6 +80,8 @@ To be implemented.
   - https://github.com/JerBouma/FinanceDatabase
   - https://github.com/ckz8780/market-toolkit
   - https://github.com/kootenpv/yagmail
+  - https://github.com/mcdallas/wallstreet
+  - https://github.com/JerBouma/FundamentalAnalysis
   
 ## Contributing:
  Do not hesitate, leave a like, a feedback, a star, a follow, some money or even a contribution!
