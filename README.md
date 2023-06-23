@@ -82,7 +82,7 @@ To be implemented.
   - https://github.com/kootenpv/yagmail
   - https://github.com/mcdallas/wallstreet
   - https://github.com/JerBouma/FundamentalAnalysis
-  
+  - https://github.com/theOGognf/finagg
 ## Contributing:
  Do not hesitate, leave a like, a feedback, a star, a follow, some money or even a contribution!
  This work needs contributors, every help will be welcomed. :)
